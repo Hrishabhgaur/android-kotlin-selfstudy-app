@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/title_home" />
+        <item
+            android:id="@+id/nav_tests"
+            android:icon="@drawable/ic_tests"
+            android:title="@string/title_tests" />
+        <item
+            android:id="@+id/nav_analysis"
+            android:icon="@drawable/ic_analysis"
+            android:title="@string/title_analysis" />
+        <item
+            android:id="@+id/nav_doubts"
+            android:icon="@drawable/ic_doubts"
+            android:title="@string/title_doubts" />
+        <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="@string/title_profile" />
+    </group>
+
+</menu>
